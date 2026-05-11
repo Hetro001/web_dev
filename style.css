@@ -117,7 +117,6 @@ body{
      width: 100%;
     height: 60px;
     background-color: #e8f0fe;
-    /* font-size: 18px; */
     padding: 20px;
     color: #303f9f;
 }
@@ -126,7 +125,6 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 20px 50px;
-    /* gap: 40px; */
     margin-top: 40px;
 }
 
@@ -215,8 +213,8 @@ background-color: white;
  padding: 10px 40px; 
  margin: 20px 50px; 
  border: 2px solid #185abc; 
- border-radius: 60px; /* padding-left: 80px; */
-  margin-left: 100px; /* height: 35px; */
+ border-radius: 60px; 
+  margin-left: 100px; 
  cursor: pointer;
 }
 
@@ -239,7 +237,6 @@ background-color: white;
 .Section2-first{
     display: flex;
     justify-content: space-between;
-    /* margin-top: 15px; */
     align-items: center;
     
 }
@@ -257,9 +254,7 @@ background-color: white;
 }
 .Section2-second{
     display: flex;
-    /* justify-content: space-between; */
     padding-right: 40px;
-    /* padding-left: 30px; */
     gap: 20px;
 }
 .sec2-Card{
@@ -270,13 +265,6 @@ background-color: white;
     border-radius: 40px;
     
 }
-/* .sec2-Card a{
-      border: 1px solid black;
-    background-color: #f5f6f7;
-    border-radius: 50px;
-    width: 10px;
-    height: 10px;
-} */
 .sec2-Card img{
     padding: 100px 50px 50px 180px;
   
@@ -300,7 +288,6 @@ background-color: white;
 .Section3-first{
     display: flex;
     justify-content: space-between;
-    /* margin-top: 15px; */
     align-items: center;
 }
 .Section3{
@@ -401,13 +388,12 @@ background-color: white;
     padding-left: 50px;
     justify-content: center;
     padding-bottom: -20px;
-    /* gap: px; */
+    
 }
 .side-section5{
     display: flex;
     gap: 12px;
     padding-left: 50px;
-    /* align-items: center; */
 }
 .sub-sec5 h2{
     font-size: 32px;
@@ -448,9 +434,8 @@ background-color: white;
     margin: 40px 50px;
     border: 2px solid #185abc;
     border-radius: 60px;
-    /* padding-left: 80px; */
     margin-left: -1px;
-    /* height: 35px; */
+  
 }
 .sec5-btn a{
     color: #0000ff;
@@ -475,7 +460,6 @@ background-color: white;
     gap: 25px;
     padding: 50px;
     flex-wrap: wrap;
-    /* text-align: center; */
 }
 
 .course{
@@ -627,4 +611,78 @@ background-color: white;
 .sub-left a:hover{
     text-decoration: underline;
     color: #1a73e8;
+}
+.form-page{
+    background-color: #f5f6f7;
+    padding-top: 30px;
+    border-top: 0.8px solid #b3bbc6;
+    height: 700px;
+}
+.form-page h2{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+}
+.form-page p{
+     font-size: 20px;
+     text-align: center;
+     margin-top: 10px;
+}
+
+
+.form-container{
+    width: 700px;
+    margin: 50px auto;
+}
+
+.name-section{
+    display: flex;
+    gap: 20px;
+}
+
+.input-group{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.input-group label{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #555;
+}
+
+.fake-input{
+    background-color: white;
+    border: 1px solid #dcdcdc;
+    padding: 14px;
+    font-size: 16px;
+    color: #777;
+}
+
+.fake-select{
+    background-color: white;
+    border: 1px solid #dcdcdc;
+    padding: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-text{
+    font-size: 10px;
+    line-height: 32px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #202124;
+}
+.submit-btn{
+    display: block;
+    margin: 40px auto;
+    padding: 14px 35px;
+    background-color: #1a73e8;
+    border: none;
+    color: white;
+    font-size: 16px;
 }
